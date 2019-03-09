@@ -10,3 +10,10 @@ HTTP stands for Hyper Text Transfer Protocol
 
 
 <a href="this is a test"> Hello </a>
+def function: 
+  do something
+
+<p></p>
+print(this)
+
+this.props
