@@ -21,3 +21,7 @@ this.props
 beautifulsoup
 
 <img src="></>
+
+clients
+servers
+Internet Connection, DNS, HTTP, TCP/IP, Component Files
