@@ -25,3 +25,5 @@ beautifulsoup
 clients
 servers
 Internet Connection, DNS, HTTP, TCP/IP, Component Files
+
+let constant = 23
