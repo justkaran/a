@@ -27,3 +27,5 @@ servers
 Internet Connection, DNS, HTTP, TCP/IP, Component Files
 
 let constant = 23
+
+import numpy as np
