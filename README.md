@@ -29,3 +29,4 @@ Internet Connection, DNS, HTTP, TCP/IP, Component Files
 let constant = 23
 
 import numpy as np
+<title>Clients are often browsers (Chrome, Edge, Safari), but they can be any type of program or device.</title>
