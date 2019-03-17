@@ -13,7 +13,7 @@ HTTP stands for Hyper Text Transfer Protocol
 def function: 
   do something
 
-<p></p>
+<p>Ohne</p>
 print(this)
 
 this.props
@@ -30,3 +30,4 @@ let constant = 23
 
 import numpy as np
 <title>Clients are often browsers (Chrome, Edge, Safari), but they can be any type of program or device.</title>
+
