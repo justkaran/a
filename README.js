@@ -8,5 +8,3 @@ var updateObjk = function(obj){
         obj[i].exc = (avg >= 70) ? 'Yes' : 'No';
     }
 }
-
-===
