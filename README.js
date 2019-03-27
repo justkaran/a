@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <title>Amazing Site </title>
-</head>
-<body>
-    <h1>Hey></h1>
-<p>var updateObjk = function(obj){
+var updateObjk = function(obj){
     for(var i = 0; i <= obj.length; i++){
         var sum = 0;
         for(var a = 0; a <= obj[i].marks.length; a++){
@@ -13,7 +7,4 @@
         var avg = sum / obj[i].mark.length;
         obj[i].exc = (avg >= 70) ? 'Yes' : 'No';
     }
-}</p> 
-</body>
-</html>
-
+}
