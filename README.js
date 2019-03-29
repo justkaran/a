@@ -1,6 +1,7 @@
 (function () {
   const doc = document.documentElement
-
+  var hello = good.bye
+  let good_bye = hello
   doc.classList.remove('no-js')
   doc.classList.add('js')
 
