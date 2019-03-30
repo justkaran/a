@@ -1,3 +1,5 @@
+<head> </head>
+
 (function () {
   const doc = document.documentElement
   var hello = good.bye
