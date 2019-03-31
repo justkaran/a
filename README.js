@@ -38,7 +38,7 @@
   }
 }())
 
-
+/* Python
 def exponents(bases, powers):
   new_lst = []
   for base in bases:
