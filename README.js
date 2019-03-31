@@ -1,4 +1,5 @@
 <head> </head>
+<body> </body>
 
 (function () {
   const doc = document.documentElement
