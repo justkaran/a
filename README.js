@@ -45,3 +45,4 @@ def exponents(bases, powers):
     for power in powers:
       new_lst.append(base ** power)
   return new_lst
+*/
