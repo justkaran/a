@@ -1,5 +1,8 @@
-<head> </head>
+<!Doctype html>
+<head>
+  </head>
 <body> </body>
+</html>
 
 (function () {
   const doc = document.documentElement
