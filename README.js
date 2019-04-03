@@ -1,6 +1,6 @@
 <!Doctype html>
 <head>
-  <title>Test</title>
+  <title>Test Title</title>
   </head>
 <body> </body>
 </html>
