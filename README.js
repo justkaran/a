@@ -3,6 +3,8 @@
   <title>Test Title</title>
   <meta tag> </>
   </head>
+<footer>
+    </footer>
 <body></body>
 </html>
 
