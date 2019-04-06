@@ -2,7 +2,7 @@
 <head>
   <title>Test Title</title>
   </head>
-<body> </body>
+<body></body>
 </html>
 
 (function () {
