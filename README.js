@@ -45,7 +45,7 @@
 }())
 
 /* Python
-def exponents(bases, powers):
+def exponent(bases, powers):
   new_lst = []
   for base in bases:
     for power in powers:
