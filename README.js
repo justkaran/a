@@ -2,7 +2,6 @@
 <head>
   <title>Test Title</title>
   <meta tag> This is a meta tag</>
-
   </head>
 <footer>
     </footer>
