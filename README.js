@@ -1,6 +1,6 @@
 <!Doctype html>
 <head>
-  <title>Test Title Site</title>
+  <title>Test Title</title>
   <meta tag> This is a meta tag</>
   </head>
 <footer>
