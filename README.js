@@ -4,8 +4,7 @@
   <meta name="description" content=This is a meta tag"/>
  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   </head>
-<footer>
-    </footer>
+
 <body>
 <div></div>
 <ul>
