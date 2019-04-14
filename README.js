@@ -2,7 +2,7 @@
 <head>
   <title>Test Title Ths is </title>
   <meta name="description" content=This is a meta tag"/>
-  <favicon/>
+ <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   </head>
 <footer>
     </footer>
