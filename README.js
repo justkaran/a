@@ -1,7 +1,7 @@
 <!Doctype html>
 <head>
   <title>Test Title Ths is </title>
-  <meta name="description" content=This is a meta tag">
+  <meta name="description" content=This is a meta tag"/>
   <favicon>
   </head>
 <footer>
