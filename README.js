@@ -2,7 +2,7 @@
 <head>
   <title>Test Title Ths is </title>
   <meta name="description" content=This is a meta tag"/>
-  <favicon>
+  <favicon/>
   </head>
 <footer>
     </footer>
