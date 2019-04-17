@@ -23,7 +23,7 @@ reset.addEventListener("click", function() {
 
 solution.addEventListener("click", function() {
   htmlInput.value = htmlCode;
-  cssInput.value = 'h1 {\n  color: blue;\n  background-color: blue;\n  border: 1px solid black;\n}\n\np {\n  color: red;\n}\n\nli {\n  text-shadow: 2px 2px 3px purple;\n}';
+  cssInput.value = 'h1 {\n  color: blue;\n  background-color: yellow;\n  border: 1px solid black;\n}\n\np {\n  color: red;\n}\n\nli {\n  text-shadow: 2px 2px 3px purple;\n}';
   drawOutput();
 });
 
