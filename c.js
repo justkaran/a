@@ -3,7 +3,7 @@ var cssInput = document.querySelector(".css-input");
 var reset = document.getElementById("reset");
 var htmlCode = htmlInput.value;
 var cssCode = cssInput.value;
-var outputs = document.querySelector(".output");
+var Output = document.querySelector(".output");
 var solution = document.getElementById("solution");
 
 var styleElem = document.createElement('style');
