@@ -66,5 +66,38 @@
   <mark> </mark>
   <nav> </nav>
   <time></time>
+  
+  <form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+    <textarea name="message" style="width:200px; height:600px;">
+The cat was playing in the garden.
+</textarea>
+    
+</form> 
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+  
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  <form action="">
+  First name:<br>
+  <input type="text" name="firstname" value="John">
+  Select images: <input type="file" name="img" multiple>
+      Enter a date before 1980-01-01:
+<input type="date" name="bday" max="1979-12-31">
+
+Enter a date after 2000-01-01:
+<input type="date" name="bday" min="2000-01-02">
+
+Quantity (between 1 and 5):
+<input type="number" name="quantity" min="1" max="5">
+</form>
+
 </body>
 </html>
