@@ -162,6 +162,65 @@ Quantity (between 1 and 5):
   <div>Four</div>
   <div>Five</div>
 </div>
+#header {
+  color: black;
+  .navigation {
+    font-size: 12px;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+
+  nav
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    display: inline-block
+
+  a
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+
+  
+  $font-stack:    Helvetica, sans-serif
+$primary-color: #333
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  
+  @import reset
+body
+  font: 100% Helvetica, sans-serif
+  background-color: #efefef
+%equal-heights
+  display: flex
+  flex-wrap: wrap
+
+
+.message
+  @extend %message-shared
+
+
+  .container
+  width: 100%
+
+
+article[role="main"]
+  float: left
+  width: 600px / 960px * 100%
+
+
+aside[role="complementary"]
+  float: right
+  width: 300px / 960px * 100%
+
+  
   
 </body>
 </html>
