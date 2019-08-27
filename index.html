@@ -220,7 +220,17 @@ aside[role="complementary"]
   float: right
   width: 300px / 960px * 100%
 
+  @some: foo;
+
+div {
+    margin: if((2 > 1), 0, 3px);
+    color:  if((iscolor(@some)), darken(@some, 10%), black);
   
+  @list: "banana", "tomato", "potato", "peach";
+n: length(@list);
+  
+  
+}
   
 </body>
 </html>
