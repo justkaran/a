@@ -249,3 +249,64 @@ fruits.reverse();     // Then reverse the order of the elements
 }
                        
                        
+var txt = "";
+var numbers = [45, 4, 9, 16, 25];
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {
+  txt = txt + value + "<br>"; 
+}
+                       
+                       var numbers1 = [45, 4, 9, 16, 25];
+var numbers2 = numbers1.map(myFunction);
+
+function myFunction(value, index, array) {
+  return value * 2;
+}
+                       
+                       var numbers = [45, 4, 9, 16, 25];
+var over18 = numbers.filter(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+  
+  var numbers1 = [45, 4, 9, 16, 25];
+var sum = numbers1.reduce(myFunction);
+
+function myFunction(total, value, index, array) {
+  return total + value;
+}
+  
+  var numbers1 = [45, 4, 9, 16, 25];
+var sum = numbers1.reduceRight(myFunction);
+
+function myFunction(total, value, index, array) {
+  return total + value;
+}
+  
+  var numbers = [45, 4, 9, 16, 25];
+var allOver18 = numbers.every(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+  
+  var numbers = [45, 4, 9, 16, 25];
+var someOver18 = numbers.some(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+  
+  var fruits = ["Apple", "Orange", "Apple", "Mango"];
+var a = fruits.indexOf("Apple");
+  
+  var numbers = [4, 9, 16, 25, 29];
+var first = numbers.find(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+  
+  
