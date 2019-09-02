@@ -591,3 +591,18 @@ status	Returns the status-number of a request
 404: "Not Found"
 For a complete list go to the Http Messages Reference
 statusText
+
+                          
+                          xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+};
+xhttp.open("GET", "ajax_info.txt", true);
+xhttp.send();
+                          
+                          open
+                          send
+                          get post
+                          true
+                          onreadystatechange
