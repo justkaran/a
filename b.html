@@ -345,3 +345,22 @@ def make_student(name, age, major):
 
 x = Person("John", "Doe")
 x.printname()
+
+  f = open("demofile.txt", "r")
+  f = open("demofile.txt", "a")
+  f = open("demofile.txt", "w")
+  f = open("demofile.txt", "x")
+  f = open("demofile.txt", "a+")
+  f = open("demofile.txt", "r")
+print(f.read())
+  f = open("demofile.txt", "r")
+print(f.read(5))
+  f = open("demofile.txt", "r")
+print(f.readline())
+  import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
+  import os
+os.rmdir("myfolder")
