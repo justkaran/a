@@ -364,3 +364,25 @@ else:
   print("The file does not exist")
   import os
 os.rmdir("myfolder")
+
+  import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+mydb = myclient["mydatabase"]
+
+["mydatabase"]
+
+for x in mycol.find():
+
+for x in mycol.find({},{ "_id": 0, "name": 1, "address": 1 }):
+  print(x)
+
+myquery = { "address": "Park Lane 38" }
+myquery = { "address": { "$gt": "S" } }
+myquery = { "address": { "$regex": "^S" } }
+
+mydoc = mycol.find(myquery)
+
+for x in mydoc:
+  print(x)
