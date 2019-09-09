@@ -386,3 +386,21 @@ mydoc = mycol.find(myquery)
 
 for x in mydoc:
   print(x)
+
+  mydoc = mycol.find().sort("name")
+mydoc = mycol.find().sort("name",-1)
+  
+  mycol.delete_one(myquery)
+x = mycol.delete_many(myquery)
+delete_many({})
+  
+  mycol.delete_one(myquery)
+x = mycol.delete_many(myquery)
+delete_many({})
+
+
+collist = mydb.list_collection_names()
+if "customers" in collist:
+  print("The collection exists.")
+
+print(mydb.list_collection_names())
